@@ -1,0 +1,7 @@
+
+def add(a, b):
+    return a + b
+for i in range(5):
+    print(f"Loop iteration {i}")
+squares = [x**2 for x in range(10)]
+print(squares)
